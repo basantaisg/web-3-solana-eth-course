@@ -1,0 +1,47 @@
+.eth-wallet {
+  border: 1px solid #ff9900;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.eth-wallet h2 {
+  font-size: 22px;
+  color: #ff9900;
+  margin-bottom: 10px;
+}
+
+.wallet-btn {
+  background-color: #ff9900;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background 0.3s ease;
+}
+
+.wallet-btn:hover {
+  background-color: #e57c00;
+}
+
+.wallet-list {
+  max-height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wallet-item {
+  background-color: #222;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #ffeccc;
+  word-break: break-word;
+  border: 1px solid #333;
+}
