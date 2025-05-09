@@ -1,0 +1,47 @@
+.solana-wallet {
+  border: 1px solid #00ffaa;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #101010;
+  margin-bottom: 20px;
+}
+
+.solana-wallet h2 {
+  font-size: 22px;
+  color: #00ffaa;
+  margin-bottom: 10px;
+}
+
+.wallet-btn {
+  background-color: #00ffaa;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background 0.3s ease;
+}
+
+.wallet-btn:hover {
+  background-color: #00dd99;
+}
+
+.wallet-list {
+  max-height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wallet-item {
+  background-color: #1a1a1a;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #ccffcc;
+  word-break: break-word;
+  border: 1px solid #333;
+}
